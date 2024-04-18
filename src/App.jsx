@@ -32,7 +32,7 @@ const App = () => {
     <div>
       <form
         ref={formRef} // Menggunakan ref untuk mengakses form
-        className="loginform hidden" // Tambahkan class "hidden" untuk menyembunyikan form secara default
+        className="loginform"
         name="login"
         method="post"
         action="http://moaibad.southeastasia.cloudapp.azure.com/moodle/login/index.php"
